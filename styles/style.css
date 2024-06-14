@@ -1,0 +1,42 @@
+h1{
+    text-align: center;
+}
+
+/*Estilos de la Tabla a Desarrollar*/
+
+table{
+    border-collapse: collapse;
+    width: 100%;
+    margin: 0 auto;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    background-color:#fff;
+}
+
+th, td{
+    padding: 12px 15px;
+    text-align: center;
+}
+th{
+    background-color: green;
+    color: white;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+td{
+    border-bottom: 1px solid #ddd;
+}
+tr:hover{
+    background-color: #f1f1f1;
+}
+.table-header{
+    font-size: 1.5rem;
+    padding: 15px 0;
+    text-align: center;
+    color: #333;
+    font-weight: bold;
+}
+
+#chart, #chart2{
+    width:  400px;
+    height: 300px;
+}

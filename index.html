@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <link rel="stylesheet" href="styles/style.css">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portafolio</title>
+  <!-- Enlace al CSS de Bootstrap -->
+  <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+  <!-- Incluir la librería ECharts desde una CDN -->
+  <script src="https://cdn.jsdelivr.net/npm/echarts@5.2.2/dist/echarts.min.js"></script>
+  <!-- Incluir el archivo JavaScript independiente -->
+   <script src="scripts/script.js"></script>
+</head>
+<body>
+
+  <!-- Barra de navegación -->
+  <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <a class="navbar-brand" href="#">Portafolio</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav">
+        <li class="nav-item active">
+          <a class="nav-link" href="#">Inicio <span class="sr-only">(actual)</span></a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Proyectos</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Reconocimientos</a>
+        </li>
+      </ul>
+    </div>
+  </nav>
+
+  <!-- Contenedor principal -->
+  <div class="container mt-4">
+    <div class="row">
+      <div class="col-md-12">
+        <h1>Diego Alejandro Barragán Vargas</h1>
+        <hr>
+        
+        <div class="table-header">Habilidades</div>
+        <table>
+          <tr>
+            <th>Perfil</th>
+            <th>Desarrollo FullStack</th>
+            <th>Otras Habilidades</th>
+          </tr>
+          <tr>
+            <!--Imagen-->
+            <td>
+                <img src="C:\Users\diale\OneDrive\Escritorio\ENJOY\2) PROYECTO\images\PERFIL.JPG" alt="Describiendo mi perfil">
+            </td>
+            <!--Gráfica de Barras-->
+            <td>
+                <div id="chart"></div>
+            </td>
+            <!--Gráfica Circular-->
+            <td>
+                <div id="chart2"></div>
+            </td>
+          </tr>
+        </table>
+      </div>
+    </div>
+  </div>
+
+  <!-- Enlace a los scripts de JavaScript de Bootstrap y jQuery -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
